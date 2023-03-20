@@ -5,7 +5,7 @@ linux {
 # !! Not tested, change to match your OpenCV (>= v4) installation #
     QT_CONFIG -= no-pkg-config
     CONFIG += link_pkgconfig
-    PKGCONFIG += opencv
+	PKGCONFIG += opencv4
 # !! Not tested, change to match your OpenCV (>= v4) installation #
 ###################################################################
 }
